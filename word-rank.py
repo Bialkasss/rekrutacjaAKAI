@@ -41,7 +41,7 @@ s.sort(key=lambda row: (row[1]), reverse=True)
 
 #wynik
 for i in range(3):
-    print("1.", s[i][0],"-",s[i][1])
+    print(i+1, ".", s[i][0],"-",s[i][1])
 
 # Example result:
 # 1. "mam" - 12
